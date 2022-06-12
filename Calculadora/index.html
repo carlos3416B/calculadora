@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/java.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="contGeneral">
+        <form name="calc">
+            <input id="mostrar" type="textfield" name="ans"       >
+
+            <input type="reset" value="AC">
+            <input type="button" value="+/-" onclick="asignarmasmenos();document.calc.ans.value+='+/-'">
+            <input type="button" value="%" onclick="asignarporcentaje();document.calc.ans.value+='%'">
+            <input type="button" value="/" onclick="asignardivicion();document.calc.ans.value+='/'"><br>
+
+
+            <input type="button" value="7" onclick="asignar7();document.calc.ans.value+='7'">
+            <input type="button" value="8" onclick="asignar8();document.calc.ans.value+='8'">
+            <input type="button" value="9" onclick="asignar9();document.calc.ans.value+='9'">
+            <input type="button" value="x" onclick="asignarpor();document.calc.ans.value+='x '" ><br>
+
+            <input type="button" value="4" onclick="asignar4();document.calc.ans.value+='4'">
+            <input type="button" value="5" onclick="asignar5();document.calc.ans.value+='5'">
+            <input type="button" value="6" onclick="asignar6();document.calc.ans.value+='6'">
+            <input type="button" value="-" onclick="asignarmenos();document.calc.ans.value+='-'"><br>
+
+            <input type="button" value="1" onclick="asignar1();document.calc.ans.value+='1'" class="cazul" >
+            <input type="button" value="2" onclick="asignar2();document.calc.ans.value+='2'">
+            <input type="button" value="3" onclick="asignar3();document.calc.ans.value+='3'">
+            <input type="button" value="+" onclick="asignarmas();document.calc.ans.value+='+'"><br>
+
+            <input type="button" value="0" onclick="asignarcero();document.calc.ans.value+='0'">
+            <input type="button" value="." onclick="asignarpunto();document.calc.ans.value+='.'";>
+            
+
+            <input id="cero-two" type="button" value="Darling" onclick='document.calc.ans.value=resultado()'>
+
+
+
+            
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
