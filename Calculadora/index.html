@@ -17,32 +17,32 @@
         <form name="calc">
             <input id="mostrar" type="textfield" name="ans"       >
 
-            <input type="reset" value="AC">
-            <input type="button" value="+/-" onclick="asignarmasmenos();document.calc.ans.value+='+/-'">
-            <input type="button" value="%" onclick="asignarporcentaje();document.calc.ans.value+='%'">
-            <input type="button" value="/" onclick="asignardivicion();document.calc.ans.value+='/'"><br>
+            <input type="reset" value="AC"class="turqueza">
+            <input type="button" value="+/-" onclick="asignarmasmenos();document.calc.ans.value+='+/-'"class="turqueza">
+            <input type="button" value="%" onclick="asignarporcentaje();document.calc.ans.value+='%'"class="turqueza">
+            <input type="button" value="/" onclick="asignardivicion();document.calc.ans.value+='/'" class="amarillo"><br>
 
 
-            <input type="button" value="7" onclick="asignar7();document.calc.ans.value+='7'">
-            <input type="button" value="8" onclick="asignar8();document.calc.ans.value+='8'">
-            <input type="button" value="9" onclick="asignar9();document.calc.ans.value+='9'">
-            <input type="button" value="x" onclick="asignarpor();document.calc.ans.value+='x '" ><br>
+            <input type="button" value="7" onclick="asignar7();document.calc.ans.value+='7'"class="azul">
+            <input type="button" value="8" onclick="asignar8();document.calc.ans.value+='8'"class="azul">
+            <input type="button" value="9" onclick="asignar9();document.calc.ans.value+='9'"class="azul">
+            <input type="button" value="x" onclick="asignarpor();document.calc.ans.value+='x ' " class="amarillo"><br>
 
-            <input type="button" value="4" onclick="asignar4();document.calc.ans.value+='4'">
-            <input type="button" value="5" onclick="asignar5();document.calc.ans.value+='5'">
-            <input type="button" value="6" onclick="asignar6();document.calc.ans.value+='6'">
-            <input type="button" value="-" onclick="asignarmenos();document.calc.ans.value+='-'"><br>
+            <input type="button" value="4" onclick="asignar4();document.calc.ans.value+='4'"class="azul">
+            <input type="button" value="5" onclick="asignar5();document.calc.ans.value+='5'"class="azul">
+            <input type="button" value="6" onclick="asignar6();document.calc.ans.value+='6'"class="azul">
+            <input type="button" value="-" onclick="asignarmenos();document.calc.ans.value+='-'" class="amarillo"><br>
 
-            <input type="button" value="1" onclick="asignar1();document.calc.ans.value+='1'" class="cazul" >
-            <input type="button" value="2" onclick="asignar2();document.calc.ans.value+='2'">
-            <input type="button" value="3" onclick="asignar3();document.calc.ans.value+='3'">
-            <input type="button" value="+" onclick="asignarmas();document.calc.ans.value+='+'"><br>
+            <input type="button" value="1" onclick="asignar1();document.calc.ans.value+='1'" class="azul" >
+            <input type="button" value="2" onclick="asignar2();document.calc.ans.value+='2'"class="azul">
+            <input type="button" value="3" onclick="asignar3();document.calc.ans.value+='3'"class="azul">
+            <input type="button" value="+" onclick="asignarmas();document.calc.ans.value+='+' "class="amarillo"><br>
 
-            <input type="button" value="0" onclick="asignarcero();document.calc.ans.value+='0'">
-            <input type="button" value="." onclick="asignarpunto();document.calc.ans.value+='.'";>
+            <input  type="button" value="0" onclick="asignarcero();document.calc.ans.value+='0'"class="azul">
+            <input type="button" value="." onclick="asignarpunto();document.calc.ans.value+='.'"class="azul";>
             
 
-            <input id="cero-two" type="button" value="Darling" onclick='document.calc.ans.value=resultado()'>
+            <input id="cero-two"  type="button" value="=" onclick='document.calc.ans.value=resultado()'class="amarillo">
 
 
 
